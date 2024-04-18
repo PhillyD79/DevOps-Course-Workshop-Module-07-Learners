@@ -30,4 +30,7 @@ jobs:
       run: npm t
       working-directory: DotnetTemplate.Web
 
-      
+    - name:  Lint  # Name of step
+      run: npm run lint
+      working-directory: DotnetTemplate.Web
+
