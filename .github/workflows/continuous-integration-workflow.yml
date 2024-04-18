@@ -17,3 +17,7 @@ jobs:
     - name: Install JS Dependencies     # Name of step
       run: npm install
       working-directory: DotnetTemplate.Web
+
+    - name:  Build    # Name of step
+      run: npm run build
+      working-directory: DotnetTemplate.Web
