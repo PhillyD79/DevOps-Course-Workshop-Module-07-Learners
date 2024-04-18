@@ -25,3 +25,9 @@ jobs:
     - name:  C Test   # Name of step
       run: dotnet test
       working-directory: DotnetTemplate.Web
+
+    - name:  NPM T   # Name of step
+      run: npm t
+      working-directory: DotnetTemplate.Web
+
+      
